@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #87CEFA;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 55px;
+}
+
+.site-name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px;
+  color: #1e3a8a;
+}
+.search_bar {
+  height: 20px;
+  width: 300px;
+  border: 2px solid #00BFFF;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  padding-top: 4px;
+  margin-left: auto;
+  margin-top: -10px;
+}
+
+.login-btn {
+  background: whitesmoke;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: -10px;
+}
+#carfItems{
+  border: 2px solid black;
+}

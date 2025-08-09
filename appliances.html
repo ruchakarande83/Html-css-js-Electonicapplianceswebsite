@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Appliances</title>
+  <link rel="stylesheet" href="appliances.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-center">
+    <div class="logo-container">
+      <img src="mainlogo.png" alt="Logo" class="logo">
+      <p class="site-name">ElectoMart</p>
+    </div>
+    <a href="mini_project2.html" class="nav-link">Home</a>
+    <a href="appliances.html" class="nav-link">Appliances</a>
+    <a href="cart.html" class="nav-link">cart</a>
+    <div class="search_bar">&#128269; Search for products</div>
+
+    <button class="login-btn">Login</button>
+  </div>
+</nav>
+
+<!-- Page Wrapper -->
+<div class="page_container">
+
+  <!-- Sidebar -->
+  <div class="hero_sidebar">
+    <button onclick="filterProducts('refrigerator')"> Refrigerators</button>
+    <br>
+    <br>
+    <button onclick="filterProducts('washing')"> Washing Machines</button>
+    <br>
+    <br>
+
+  </div>
+
+  <!-- Product Cards Container (all cards here!) -->
+  <div class="products">
+
+    <!-- Refrigerator Cards -->
+    <div class="product_card refrigerator">
+      <img src="fridge1.jpg" alt="error">
+      <h3>LG SmartCool 260L</h3>
+      <p>₹25,000</p>
+      <button>Buy Now</button>
+    <button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card refrigerator">
+      <img src="fridge2.jpg" alt="error">
+      <h3>Samsung FrostFree 345L</h3>
+      <p>₹15,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card refrigerator">
+      <img src="fridge3.jpg" alt="error">
+      <h3>Whirlpool IcePro 300L</h3>
+      <p>₹30,000</p>
+      <button>Buy Now</button>
+  <button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card refrigerator">
+      <img src="fridge4.jpg" alt="error">
+      <h3>Godrej Edge Neo 240L</h3>
+      <p>₹27,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card refrigerator">
+      <img src="fridge5.jpg" alt="error">
+      <h3>Haier InstaCool 320L</h3>
+      <p>₹22,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card refrigerator">
+      <img src="fridge6.jpg" alt="error">
+      <h3>Haier InstaCool 200L</h3>
+      <p>₹20,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <!-- Washing Machine Cards -->
+    <div class="product_card washing">
+      <img src="washing1.jpg" alt="Samsung EcoBubble 7kg">
+      <h3>Samsung EcoBubble 7kg</h3>
+      <p>₹18,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card washing">
+      <img src="washing2.jpg" alt="LG TurboWash 8kg">
+      <h3>LG TurboWash 8kg</h3>
+      <p>₹23,500</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card washing">
+      <img src="washing3.jpg" alt="Bosch Serie 6 6.5kg">
+      <h3>Bosch Serie 6 6.5kg</h3>
+      <p>₹20,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card washing">
+      <img src="washing4.jpg" alt="Whirlpool FreshCare 7.5kg">
+      <h3>Whirlpool FreshCare 7.5kg</h3>
+      <p>₹21,800</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card washing">
+      <img src="washing5.jpg" alt="IFB Aqua Energie 6kg">
+      <h3>IFB Aqua Energie 6kg</h3>
+      <p>₹19,200</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+    <div class="product_card washing">
+      <img src="washing6.jpg" alt="Haier Direct Motion 8kg">
+      <h3>Haier Direct Motion 8kg</h3>
+      <p>₹22,000</p>
+      <button>Buy Now</button>
+<button onclick="addToCart(this)">Add to Cart</button>
+    </div>
+
+  </div> <!-- End of .products -->
+
+</div> <!-- End of .page_container -->
+
+<script src="filter.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

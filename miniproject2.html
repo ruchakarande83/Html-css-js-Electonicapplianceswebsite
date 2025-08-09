@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Project 2</title>
+  <link rel="stylesheet" href="mini_project2.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-center">
+    <div class="logo-container">
+      <img src="mainlogo.png" alt="Logo" class="logo">
+      <p class="site-name">ElectoMart</p>
+    </div>
+    <a href="mini_project2.html" class="nav-link">Home</a>
+    <a href="appliances.html" class="nav-link">Appliances</a>
+    <a href="cart.html" class="nav-link">cart</a>
+    <div class="search_bar">&#128269; Search for products</div>
+    <button class="login-btn">Login</button>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <div class="hero_div">
+    <div class="front">
+      <img src="front.png" alt="Hero Image" class="img1" />
+    </div>
+    <div class="text_div">
+      <h1>Upgrade Your Home with Smart Appliances</h1>
+      <p>
+        Discover a wide range of reliable and energy-efficient <br />
+        electronics designed to simplify your daily life.<br />
+        From kitchen essentials to smart home devices — we’ve got it all.
+      </p>
+      <a href="appliances.html" class="anchor">Appliances &rarr;</a>
+    </div>
+  </div>
+
+  <hr />
+  <!-- Services Section -->
+  <div class="services-section">
+    <h1 class="ser">Our Services</h1>
+
+    <div class="scroll-wrapper">
+      <button class="scroll-btn left" onclick="scrollLeft()">←</button>
+
+      <div class="scroll-container" id="scrollable">
+        <div class="hero_cont">
+          <div class="inner-card">
+            <img src="free_del.jpg" alt="Free Delivery" />
+            <p>Fast and Free<br>delivery at doorstep<br>on order</p>
+          </div>
+          <div class="inner-card">
+            <img src="install.jpg" alt="Installation" />
+            <p>Professional setup<br>of appliances<br>by certified technicians</p>
+          </div>
+          <div class="inner-card">
+            <img src="easy_del.jpg" alt="Easy Return" />
+            <p>Hassle-free<br>easy return policy<br>in 7 days</p>
+          </div>
+          <div class="inner-card">
+            <img src="support.jpg" alt="Support" />
+            <p>24/7 customer support<br>available for issues<br>and enquiry</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="scroll-btn right" onclick="scrollRight()">→</button>
+    </div>
+  </div>
+ <!-- <script src="scroll.js"></script>-->
+ 
+  
+</body>
+</html>

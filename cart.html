@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="cart.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="logo-container">
+        <img src="mainlogo.png" alt="Logo" class="logo" />
+        <p class="site-name">ElectoMart</p>
+      </div>
+      <a href="mini_project2.html" class="nav-link">Home</a>
+      <a href="appliances.html" class="nav-link">Appliances</a>
+      <a href="cart.html" class="nav-link">Cart</a>
+      <div class="search_bar">&#128269; Search for products</div>
+      <button class="login-btn">Login</button>
+    </div>
+  </nav>
+  
+  <!-- Container to show cart items -->
+  <div id="cartItems"></div>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let cart = JSON.parse(localStorage.getItem("cart"))||[];
+      let cartItemsDiv = document.getElementById("cartItems");
+      
+      if (cart.length === 0) {
+        cartItemsDiv.innerHTML = "<p>Your cart is empty.</p>";
+      } else {
+        cart.forEach(item => {
+          let productDiv = document.createElement("div");
+          productDiv.innerHTML = `
+            <img src="${item.image}" width="100" alt="${item.name}" />
+            <h3>${item.name}</h3>
+            <p>${item.price}</p>
+          `;
+          cartItemsDiv.appendChild(productDiv);
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>

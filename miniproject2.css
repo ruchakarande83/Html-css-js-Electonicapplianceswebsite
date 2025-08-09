@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #87CEFA;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 55px;
+}
+
+.site-name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px;
+  color: #1e3a8a;
+}
+.search_bar {
+  height: 20px;
+  width: 300px;
+  border: 2px solid #00BFFF;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  padding-top: 4px;
+  margin-left: auto;
+  margin-top: -10px;
+}
+
+.login-btn {
+  background: whitesmoke;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: -10px;
+}
+
+/* Hero Section */
+.hero_div {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 40px;
+}
+
+.front img {
+  height: 350px;
+  width: 550px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.front img:hover {
+  transform: scale(1.1);
+}
+
+.text_div {
+  max-width: 500px;
+}
+
+.text_div h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.text_div p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.anchor {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: gray;
+  background-color: #87CEFA;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+/* Services Section */
+.services-section {
+  padding: 40px;
+  width: auto;
+  background-color: lightgray;
+  margin-top: -5px;
+}
+
+.ser {
+  text-align: center;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.scroll-container {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 80%;
+  /*scroll-behavior: smooth;*/
+}
+.hero_cont {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Card */
+.inner-card {
+  flex: 0 0 250px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.inner-card img {
+  height: 100px;
+  width: 120px;
+  margin: 20px 0;
+}
+
+.scroll-btn {
+  background-color: #87CEFA;
+  border: none;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.scroll-btn:hover {
+  background-color: #1e90ff;
+  color: white;
+} 

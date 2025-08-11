@@ -5,4 +5,5 @@ Then on the appliances page , first you will be able to see the navigation bar t
 When you first see the appliances page you are able to see all the products but when you click on button called refrigirators you will be only able to see refrigerators and same for washing machine button.The buttons on the sidebar works like filter.
 Then on the product cards you are visible to two buttons buynow and addtocart when you click on the add to cart button the product are automatically added to cart page.
 The product which tou added to cart will be visible on the third page called cart 
-the cart page includes navigation bar and added to cart products 
+the cart page includes navigation bar and added to cart products .
+If you want to buy a product then click on the buynow button on the product card and choose a payment option via upi or credit card fill the details respected to you choosen option and make the payment

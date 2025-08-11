@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    background-color:#d6efff;
+}
+
+/* Navbar */
+.navbar {
+  background: #87CEFA;
+  padding: 10px 20px;
+  width: 100%;
+  height: 50px;
+}
+
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 55px;
+}
+
+.site-name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 4px;
+  color: #1e3a8a;
+}
+.search_bar {
+  height: 20px;
+  width: 300px;
+  border: 2px solid #00BFFF;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  padding-top: 4px;
+  margin-left: auto;
+  margin-top: -10px;
+}
+
+.login-btn {
+  background: whitesmoke;
+  color: #1e3a8a;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: -10px;
+}
+/* Payment Container */
+.payment-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.payment-option {
+  background: #87CEFA;
+  color: #1e3a8a;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0;
+  transition: 0.3s;
+}
+
+.payment-option:hover {
+  background: #00BFFF;
+  color: white;
+}
+
+.payment-form {
+  display: none;
+  margin-top: 15px;
+}
+
+button {
+  background: #87CEFA;
+  color: #1e3a8a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00BFFF;
+  color: white;
+}
